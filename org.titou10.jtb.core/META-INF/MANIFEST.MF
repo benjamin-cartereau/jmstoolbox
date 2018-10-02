@@ -5,8 +5,15 @@ Bundle-SymbolicName: org.titou10.jtb.core;singleton:=true
 Automatic-Module-Name: org.titou10.jtb.core
 Bundle-Version: 4.13.0.qualifier
 Bundle-ClassPath: .,
-  lib/javax.json-1.0.4.jar,
-  lib/javax.jms-api-2.0.1.jar
+ lib/javax.jms-api-2.0.1.jar,
+ lib/jaf/activation-1.1.1.jar,
+ lib/jaf/javax.activation-api-1.2.0.jar,
+ lib/jaxb/istack-commons-runtime-3.0.7.jar,
+ lib/jaxb/jaxb-api-2.3.0.jar,
+ lib/jaxb/jaxb-core-2.3.0.1.jar,
+ lib/jaxb/jaxb-runtime-2.3.0.1.jar,
+ lib/json/javax.json-1.1.2.jar,
+ lib/json/javax.json-api-1.1.2.jar
 Bundle-Vendor: Denis Forveille
 Export-Package: javax.jms,
   org.titou10.jtb.config.gen,
@@ -33,6 +40,6 @@ Require-Bundle: org.eclipse.core.filesystem,
  org.eclipse.e4.core.di.extensions,
  org.eclipse.osgi.services,
  org.eclipse.nebula.widgets.cdatetime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Import-Package: javax.annotation;version="1.2.0"
 
